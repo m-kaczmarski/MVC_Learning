@@ -8,11 +8,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>Przyjęcie sylwestrowe</title>
 </head>
 <body>
     <div>
         @ViewBag.Greeting, świecie (z widoku)
+        <p>Zapraszamy na wspaniałe przyjęcie.<br />
+           (Do zrobienia: trzeba to ulepszyć, dodać zdjęcia i inne takie).</p>
+        @Html.ActionLink("Wyślij RSVP", "RsvpForm")
     </div>
 </body>
 </html>
